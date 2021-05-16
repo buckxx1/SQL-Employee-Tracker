@@ -22,4 +22,9 @@ connection.connect(function(err) {
         return
     }
     console.log("connection to the database was successful")
-})
+});
+
+// stop forgetting your connections 
+//dont forget to exporttttttt
+
+module.exports = connection;
