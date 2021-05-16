@@ -1,6 +1,6 @@
 //add requirements
 
-//const database = require('mime-db');
+
 const mysql = require('mysql2');
 
 if(process.env.JAWSDB_URL) {
@@ -8,7 +8,7 @@ if(process.env.JAWSDB_URL) {
 } else {
     connection = mysql.createConnection({
         host: "localhost",
-        port: 3333,
+        port: 3306,
         user: "root",
         password: "Jotuun16",
         database: "employees_db"
