@@ -34,3 +34,25 @@ CREATE TABLE employees(
     CONSTRAINT fk_manager_id FOREIGN KEY (manager_id) REFERENCES managers(id) ON DELETE CASCADE,
     PRIMARY KEY(id)
 );
+
+--call the data
+
+SELECT
+employees.id as ID, 
+employees.first_name as first_name, 
+employees.last_name as last_name,
+roles.title as title,
+departments.name as department,
+managers.name as manager,
+salary
+FROM
+employees
+LEFT JOIN
+departments
+ON (employees.department_id = departments.id)
+LEFT JOIN
+roles
+ON (employees.role_id = roles.id)
+LEFT JOIN
+managers
+ON (employees.manager_id = managers.id)

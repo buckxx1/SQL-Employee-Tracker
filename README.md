@@ -1,6 +1,42 @@
 # SQL-Employee-Tracker
 Program to track and mange your employees 
 
+### link to video 
+
+(https://drive.google.com/file/d/1ehG2pY0PyxCuOs996xIf-4SxY-WnkSlH/view?usp=sharing)
+the amount this works is limited but its so close to being fully functional its a bit frustrating. having issues seeding but i hope this is not to horrible.
+
+#### deployed application (https://sql-employee-manager.herokuapp.com/)
+i know we didnt need to deploy but i was hoping to have this working fully in time to submit but this project was such a headache mysql is not my strong suit
+
+### github repo (https://github.com/buckxx1/SQL-Employee-Tracker)
+link to the github file 
+
+
+### user story
+AS A business owner
+I WANT to be able to view and manage the departments, roles, and employees in my company
+SO THAT I can organize and plan my business
+
+### acceptance criteria 
+
+GIVEN a command-line application that accepts user input
+WHEN I start the application
+THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
+WHEN I choose to view all departments
+THEN I am presented with a formatted table showing department names and department ids
+WHEN I choose to view all roles
+THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role
+WHEN I choose to view all employees
+THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
+WHEN I choose to add a department
+THEN I am prompted to enter the name of the department and that department is added to the database
+WHEN I choose to add a role
+THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database
+WHEN I choose to add an employee
+THEN I am prompted to enter the employee’s first name, last name, role, and manager and that employee is added to the database
+WHEN I choose to update an employee role
+
 ## schema 
 
 * department
@@ -31,4 +67,5 @@ Program to track and mange your employees
 
 * Use [console.table](https://www.npmjs.com/package/console.table) to print MySQL rows to the console. There is a built-in version of `console.table`, but the NPM package formats the data a little better for our purposes.
 
-https://sql-employee-manager.herokuapp.com/
+
+#### deployed application (https://sql-employee-manager.herokuapp.com/)
