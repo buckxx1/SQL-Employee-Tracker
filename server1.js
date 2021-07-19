@@ -1,6 +1,11 @@
 const express = require('express');
+const mysql = require('mysql2');
+const inquirer = require('inquirer');
 
-const PORT = process.env.PORT || 3000;
+const db = require('./config/connectionconnection');
+app.use(express.urlencoded({ extended: true }));
+
+const PORT = process.env.PORT || 3200;
 
 const app = express();
 

@@ -6,8 +6,6 @@ Program to track and mange your employees
 (https://drive.google.com/file/d/1ehG2pY0PyxCuOs996xIf-4SxY-WnkSlH/view?usp=sharing)
 the amount this works is limited but its so close to being fully functional its a bit frustrating. having issues seeding but i hope this is not to horrible.
 
-#### deployed application (https://sql-employee-manager.herokuapp.com/)
-i know we didnt need to deploy but i was hoping to have this working fully in time to submit but this project was such a headache mysql is not my strong suit
 
 ### github repo (https://github.com/buckxx1/SQL-Employee-Tracker)
 link to the github file 
@@ -67,5 +65,3 @@ WHEN I choose to update an employee role
 
 * Use [console.table](https://www.npmjs.com/package/console.table) to print MySQL rows to the console. There is a built-in version of `console.table`, but the NPM package formats the data a little better for our purposes.
 
-
-#### deployed application (https://sql-employee-manager.herokuapp.com/)

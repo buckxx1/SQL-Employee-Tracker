@@ -3,17 +3,14 @@
 
 const mysql = require('mysql2');
 
-if(process.env.JAWSDB_URL) {
-    connection = mysql.createConnection(process.env.JAWSDB_URL)
-} else {
-    connection = mysql.createConnection({
+const db = mysql.createConnection({
         host: "localhost",
-        port: 3306,
+        
         user: "root",
-        password: "Jotuun16",
+        password: "password",
         database: "employees_db"
     });
-}
+
 
 // check to see if connection works 
 connection.connect(function(err) {
