@@ -3,8 +3,7 @@ Program to track and mange your employees
 
 ### link to video 
 
-(https://drive.google.com/file/d/1ehG2pY0PyxCuOs996xIf-4SxY-WnkSlH/view?usp=sharing)
-the amount this works is limited but its so close to being fully functional its a bit frustrating. having issues seeding but i hope this is not to horrible.
+
 
 
 ### github repo (https://github.com/buckxx1/SQL-Employee-Tracker)
